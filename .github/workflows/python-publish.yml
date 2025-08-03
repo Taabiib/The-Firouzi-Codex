@@ -68,7 +68,9 @@ jobs:
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           packages-dir: dist/
-                      - name: Setup Node.js environment
+
+    
+       - name: Setup Node.js environment
   uses: actions/setup-node@v3.9.1
   with:
     # Set always-auth in npmrc.
